@@ -1,0 +1,190 @@
+
+
+.km  {border:100px solid red !important; position: absolute; z-index: 777; top: 50%}
+.km span {border:100px solid red !important; position: absolute; z-index: 777; top: 50%}
+
+
+
+#header {width: 100%;height: 100px;background: #fff;position: fixed;z-index: 1;border-bottom: 1px solid #ccc;}
+.header_wrap {width: 1200px;height: 100%;margin: 0 auto}
+.header_wrap h1 {width: 176px;height: 74px;margin-top: 13px;margin-left: 17px;float: left;}
+
+.header_wrap .gnb_wrap {width: 500px;height: 100%;float: left;margin-left: 300px;}
+.header_wrap .gnb_wrap li {float: left;line-height: 100px;font-size: 20px;}
+.header_wrap .gnb_wrap li a {;padding: 0 30px;display:block;}
+
+.header_wrap select {float: right;margin-right: 17px;color: #333;border: none;font-size: 14px;margin-top: 38px;}
+
+
+html,body { margin:0; padding:0; width:100%; height:100%;}
+.section { width:100%; height:100%; position:relative;overflow: hidden;}
+
+
+.section_wrap {width: 1200px;height: 100%;margin: 0 auto;}
+.section_wrap .text_zone {width: 400px;padding-top: 140px;float: left; margin-left: 17px;   position: relative; z-index: 2}
+.section_wrap .text_zone li:first-child {font-size: 36px;margin-bottom: 19px;}
+.section_wrap .text_zone li:last-child {font-size: 60px;font-family:'CHONBUKL';font-weight: bold;}
+
+
+
+
+.section_wrap .map_zone {width: 60%;/*background: url('../images/map02.png') no-repeat center*/
+;position: absolute;top:20%; left: 50%; transform: translate(-50%,0); }
+.section_wrap .map_zone img {width: 100%;}
+
+
+.section_wrap .map_zone .jeonju .map_jj {position: absolute; top: 29.7%; margin-top: 0px;left: 51.7%;margin-left: -4px;  width: 12%;}
+.section_wrap .map_zone .jeonju .map_jj img {width: 95%;}
+.section_wrap .map_zone .jeonju .jj_hover {position: absolute;width: 30%; top: 29.5%;
+;margin-left: -4px;left: 51.7%;transition: .5s;opacity: 0; width: 12%;}
+.section_wrap .map_zone .jeonju .jj_hover img {width: 100%;}
+
+
+.section_wrap .map_zone .jeonju .jj_hover:hover {top: 28%;opacity: 1;}
+
+
+
+
+
+
+.section_wrap .map_zone .buan .map_ba img {position: absolute;top: 28%;left: 25%;margin-top: 2px
+;margin-left: 2px;transition: .5s;}
+.section_wrap .map_zone .buan .ba_hover {position: absolute;width: 220px;top: 28%;left: 25%;margin-left: 2px
+;margin-top: -3px;opacity: 0;transition: .5s;}
+
+
+
+.section_wrap .map_zone .buan .ba_hover:hover {top: 26%;opacity: 1;}
+
+
+.section_wrap .map_zone .gunsan .map_gs img {position: absolute;top: 46%;left: 22%;margin-left: 2px;margin-top: -2px;
+transition: .5s;}
+.section_wrap .map_zone .gunsan .gs_hover {position: absolute;width: 209px;top: 46%;left: 22%;margin-top: -2px;
+opacity: 0;transition: .5s;}
+
+
+.section_wrap .map_zone .gunsan .gs_hover:hover {top: 44%;opacity: 1;}
+
+
+.cloud_zone {position: absolute;top:55%;left:35%;transform: translate(0,-50%)}
+.cloud_zone img {width:80%}
+
+
+
+.section_wrap .jb_logo {width: 1166px;position: absolute;top: 93%;left: 50%;
+transform: translate(-50%,-50%);}
+
+.section_wrap .jb_logo img {float: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sub*/
+.intro_wrap {width: 1166px;height: 100%;position: relative;
+left: 50%;top: 50%;transform: translate(-50%,-50%);}
+.intro_box {width: 100%;height: 80vh;;position: absolute;
+top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.intro_wrap .intro_text {width: 1166px;text-align: center;margin-top: 7%;}
+.intro_wrap .intro_text li:first-child span {font-size: 1.5em;font-family:'CHONBUKL';margin-right: 13px;}
+.intro_wrap .intro_text li:first-child {font-size: 220%;font-weight: bold;margin-bottom: 2%;}
+.intro_wrap .intro_text li:nth-child(2) {font-size: 130%;font-weight: bold;margin-bottom: 1.5%;line-height: 30px;}
+.intro_wrap .intro_text li:last-child {font-size: 180%; margin-bottom: 3%}
+
+
+
+.intro_wrap .card_kind {width: 100%; text-align: center;}
+.intro_wrap .card_kind > ul > li {width: 25%; display: inline-block; vertical-align: top;margin-right:40px; border:1px solid red;}
+.intro_wrap .card_kind > ul > li:last-child {margin-right: 0;}
+.intro_wrap .card_kind > ul > li .thumb {text-align: center;margin-bottom: 30px;position: relative;}
+.intro_wrap .card_kind > ul > li .thumb img {width: 100%}
+.intro_wrap .card_kind > ul > li .thumb span {width: 100%;display: block;height: 100%;position: absolute;
+background: rgba(255, 255, 255, 0.6);top: 0;transition: .3s;opacity: 0;}
+.intro_wrap .card_kind > ul > li .thumb span button {padding: 8px 16px;border:1px solid #333;margin-top: 5%;}
+.intro_wrap .card_kind > ul > li ul {text-align: center;}
+.intro_wrap .card_kind > ul > li ul li:first-child {font-size: 120%; margin-bottom: 5%;}
+.intro_wrap .card_kind > ul > li ul li:last-child {font-size: 100%; word-break: keep-all;}
+
+
+.intro_wrap .card_kind > ul > li:hover .thumb span {opacity: 1;}
+
+
+
+
+.jj_wrap {width: 1101px;padding-top: 100px;height: 100%;margin: 0 auto;position: relative}
+.jj_wrap .jj_text {margin-top: 55px;}
+.jj_wrap .jj_text .big_title h2 {font-size: 60px;font-family:'CHONBUKL';margin-bottom: 30px;}
+.jj_wrap .jj_text .big_title p {font-size: 30px;margin-bottom: 30px;}
+
+.jj_wrap .jj_text .tourism_area ul .tour_title {font-size: 20px;margin-bottom: 16px;}
+.jj_wrap .jj_text .tourism_area ul {margin-bottom: 23px;}
+.jj_wrap .jj_text .tourism_area ul:last-child {margin-bottom: 0;}
+.jj_wrap .jj_text .tourism_area ul li p {font-size: 16px;line-height: 20px;}
+
+
+.jj_wrap .sub_map {position: absolute;top: 29%;left: 47%;margin-left: 4px;}
+.jj_wrap .sub_map .sub_hover {position: absolute;width: 80%;height: 150px;top: 15%;left: 10%;}
+.jj_wrap .sub_map .sub_hover .up_area {position: absolute;width: 100%;height: 100%}
+.jj_wrap .sub_map .sub_hover .up_area p {position: absolute;}
+.jj_wrap .sub_map .sub_hover .up_area p:first-child {top:0;right: 30%;}
+.jj_wrap .sub_map .sub_hover .up_area p:nth-child(2) {top:45%;left: 50%;}
+.jj_wrap .sub_map .sub_hover .up_area p:nth-child(3) {top:80%;left: 55%;}
+.jj_wrap .sub_map .sub_hover .up_area p:last-child {top:40%;right: 25%;}
+
+
+.jj_wrap .sub_map .sub_hover .up_area p span {position: absolute;width: 100px;height: 30px;background: #fae174;
+line-height: 30px;text-align: center;border-radius: 5px;color: #555;top:-50px;left: -10px;opacity: 0;z-index: 3;}
+.jj_wrap .sub_map .sub_hover .up_area p:nth-child(2) span {width: 110px;left: -40px;}
+.jj_wrap .sub_map .sub_hover .up_area p:nth-child(3) span {width: 110px;left: -40px;}
+.jj_wrap .sub_map .sub_hover .up_area p:last-child span {left: -30px}
+
+
+.jj_wrap .sub_map .sub_hover .up_area p:hover span {opacity: 1;}
+
+.jj_wrap .sub_map .sub_hover02 {position: absolute;width: 80%;height: 150px;top: 50%;left: 10%;}
+.jj_wrap .sub_map .sub_hover02 .down_area {position: absolute;width: 100%;height: 100%}
+.jj_wrap .sub_map .sub_hover02 .down_area p {position: absolute;}
+.jj_wrap .sub_map .sub_hover02 .down_area p:first-child {top:0;left: 48%;}
+.jj_wrap .sub_map .sub_hover02 .down_area p:nth-child(2) {top:20%;left: 60%;}
+.jj_wrap .sub_map .sub_hover02 .down_area p:nth-child(3) {top:40%;left: 63%;}
+.jj_wrap .sub_map .sub_hover02 .down_area p:nth-child(4) {top:70%;left: 65%;}
+.jj_wrap .sub_map .sub_hover02 .down_area p:nth-child(5) {top:0;left: 70%;}
+.jj_wrap .sub_map .sub_hover02 .down_area p:last-child {top:20%;left: 83%;}
+
+
+.jj_wrap .sub_map .sub_hover02 .down_area p span {position: absolute;width: 100px;height: 30px;background: #fae174;
+line-height: 30px;text-align: center;border-radius: 5px;color: #555;top:-50px;left: -40px;opacity: 0;z-index: 3;}
+.jj_wrap .sub_map .sub_hover02 .down_area p:nth-child(2) span {width: 100px;left: -35px;}
+.jj_wrap .sub_map .sub_hover02 .down_area p:nth-child(5) span {width: 100px;left: -20px;}
+.jj_wrap .sub_map .sub_hover02 .down_area p:last-child span {width: 100px;left: -30px;}
+
+
+.jj_wrap .sub_map .sub_hover02 .down_area p:hover span {opacity: 1;}
+
+
+
+
+
+
+
+/*footer*/
+
+#footer {width: 100%;height: 150px;background: #323232;}
+#footer .footer_menu {width: 100%;height: 40px;border-bottom: 1px solid #ccc;}
+#footer .footer_menu .footer_menu_wrap {width: 1166px;height:40px;margin: 0 auto;}
+#footer .footer_menu .footer_menu_wrap li {margin-right: 30px;float: left;line-height: 40px;font-size: 14px;}
+#footer .footer_menu .footer_menu_wrap li a {color: #999;}
+
+
+
+#footer .footer_wrap {width: 1166px;height: 90px;margin: 10px auto 0 auto;}
+#footer .footer_wrap li {color: #666;font-size: 14px;margin-bottom: 5px;}
+#footer .footer_wrap li:last-child {margin-bottom: 0}

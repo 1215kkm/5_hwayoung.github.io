@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코미팜</title>
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+</head>
+<body>
+
+
+    
+
+    <div id="visual">
+        <div class="visual_wrap">
+
+            <div class="visual_img">
+
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background:url(images/main_visual.jpg) center top; ;"></div>
+                        <div class="swiper-slide" style="background:url(images/main_visual02.jpg) center top; "></div>
+                        <div class="swiper-slide" style="background:url(images/main_visual.03jpg.jpg) center top; "></div>
+                
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination swiper-pagination-white"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                </div>
+                
+                    
+                <!-- <ul class="visual_slide">
+                    <li><img src="images/main_visual.jpg" alt=""></li>
+                    <li><img src="images/main_visual02.jpg" alt=""></li>
+                    <li><img src="images/main_visual.03jpg.jpg" alt=""></li>
+                </ul> -->
+
+                <div class="visual_btns">
+                    <ul>
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script/jquery-3.5.1.js"></script>
+    <script src="script/action.js"></script>
+    <script src="script/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            effect: 'fade',
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+    </script>
+
+</body>
+</html>

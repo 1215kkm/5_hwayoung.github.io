@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버박</title>
+    
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+<body>
+    
+    <div id="header">
+        <div class="topset">
+            
+            <div class="company">
+                Virbac South Korea
+            </div>
+            <h1><img src="images/logo.png" alt=""></h1>
+            <div class="search_box">
+                <form action="">
+                    <fieldset>
+                    <legend>검색</legend>
+                    <input type="text">
+                    </fieldset>
+                    </form>
+            </div>
+            <ul class="topmenu">
+                <li><img src="images/search_03.png" alt=""></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            
+        </div>
+
+        <div class="gnb_box">
+            <div class="gnb">
+                <ul>
+                    <li><a href="#">버박은?</a>
+                        <ul class="lnb">
+                            <li><a href="#">회사정보<span></span></a></li>
+                            <li><a href="#">설립자<span></span></a></li>
+                            <li><a href="#">미션/가치<span></span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">축종</a>
+                        <ul class="lnb">
+                            <li><a href="#">개<span></span></a></li>
+                            <li><a href="#">고양이<span></span></a></li>
+                            <li><a href="#">돼지<span></span></a></li>
+                            <li><a href="#">소<span></span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">질병</a>
+                        <ul class="lnb">
+                            <li><a href="#">개<span></span></a></li>
+                            <li><a href="#">고양이<span></span></a></li>
+                            <li><a href="#">돼지<span></span></a></li>
+                            <li><a href="#">소<span></span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">제품</a>
+                        <ul class="lnb">
+                            <li><a href="#">개<span></span></a></li>
+                            <li><a href="#">고양이<span></span></a></li>
+                            <li><a href="#">돼지<span></span></a></li>
+                            <li><a href="#">소<span></span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div id="visual_main">
+        <div class="slide_wrap">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/visual01.jpg" alt="">
+                        <a href="#">버박 스토리 보기</a>
+                    </div>
+                    <div class="swiper-slide"><img src="images/visual02.jpg" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <div id="section01"></div>
+    <div id="section02"></div>
+    <div id="section03"></div>
+    <div id="section04"></div>
+    <div id="footer"></div>
+
+    <script src="script/jquery-3.5.1.js"></script>
+    <script src="script/action.js"></script>
+
+    <script src="script/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    });
+    </script>
+
+</body>
+</html>
